@@ -1,0 +1,24 @@
+[server]
+address = "127.0.0.1"
+headless = true
+enableCORS = true
+enableXsrfProtection = true
+enableStaticServing = false
+fileWatcherType = "none"
+allowedHosts = ["127.0.0.1", "localhost"]
+
+[browser]
+gatherUsageStats = false
+
+[client]
+showErrorDetails = "none"
+toolbarMode = "minimal"
+disableDataExport = true
+
+[theme]
+base = "light"
+primaryColor = "#17664f"
+backgroundColor = "#f7f8f5"
+secondaryBackgroundColor = "#edf1eb"
+textColor = "#18251e"
+font = "sans serif"

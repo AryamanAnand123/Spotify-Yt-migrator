@@ -1,0 +1,7 @@
+{
+  "tracks": [{"artist": "Example Artist", "album": "Example Album", "track": "Example Song", "uri": "spotify:track:synthetic"}],
+  "albums": [],
+  "artists": [{"name": "Example Artist", "uri": "spotify:artist:synthetic"}],
+  "shows": [{"name": "Example Podcast", "uri": "spotify:show:synthetic"}],
+  "episodes": []
+}

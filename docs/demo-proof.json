@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "synthetic_only": true,
+  "external_service_access": "disabled",
+  "credential_access": "disabled",
+  "policy": {
+    "approve": 2,
+    "skip": 1,
+    "review": 2,
+    "pending": 0,
+    "preserved": 0,
+    "approved": 2,
+    "skipped": 1
+  },
+  "phases": [
+    {
+      "phase": "Partial copy",
+      "playlist_id": "PLdemo00000001",
+      "sequence": [
+        "abcdefghijk",
+        "abcdefghijk",
+        "lmnopqrstuv"
+      ],
+      "verification": "verified_plan_with_gaps",
+      "verified_operations": 3
+    },
+    {
+      "phase": "Fill the middle gap",
+      "playlist_id": "PLdemo00000001",
+      "sequence": [
+        "abcdefghijk",
+        "zyxwvutsrqp",
+        "abcdefghijk",
+        "lmnopqrstuv"
+      ],
+      "verification": "verified_plan_with_gaps",
+      "verified_operations": 3
+    },
+    {
+      "phase": "Finish reviewed entries",
+      "playlist_id": "PLdemo00000001",
+      "sequence": [
+        "abcdefghijk",
+        "zyxwvutsrqp",
+        "abcdefghijk",
+        "lmnopqrstuv",
+        "vwxyzabcdef"
+      ],
+      "verification": "verified_plan_with_gaps",
+      "verified_operations": 4
+    }
+  ],
+  "same_copy_reused": true,
+  "same_plan_replay_unchanged": true,
+  "final_likes": 3,
+  "final_playlist_entries": 5,
+  "account_download_fixture_files": 4
+}

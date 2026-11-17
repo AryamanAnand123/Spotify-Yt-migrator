@@ -1,0 +1,9 @@
+{
+  "playlists": [{
+    "name": "Synthetic demonstration playlist",
+    "items": [
+      {"track": {"trackName": "Example Song", "artistName": "Example Artist", "trackUri": "spotify:track:synthetic"}},
+      {"track": {"trackName": "Example Song", "artistName": "Example Artist", "trackUri": "spotify:track:synthetic"}}
+    ]
+  }]
+}
